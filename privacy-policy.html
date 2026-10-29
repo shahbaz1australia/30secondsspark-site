@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — 30SecondSpark</title>
+<style>
+  :root {
+    --bg: #0e1116; --panel: #151a22; --text: #e8ebf0; --muted: #8b93a3;
+    --accent: #f2b544; --border: #262c38;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 56px 20px 80px; }
+  a { color: var(--accent); }
+  .back { color: var(--muted); text-decoration: none; font-size: 14px; }
+  h1 { font-size: 26px; margin: 24px 0 4px; }
+  .updated { color: var(--muted); font-size: 13px; margin-bottom: 36px; }
+  h2 { font-size: 17px; margin: 36px 0 10px; color: #fff; }
+  p, li { color: #c6cbd6; font-size: 15px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  code {
+    background: var(--panel); border: 1px solid var(--border);
+    padding: 1px 6px; border-radius: 4px; font-size: 13px;
+  }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">&larr; 30SecondSpark</a>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: October 29, 2026</p>
+
+  <p>
+    30SecondSpark ("the channel", "we") publishes short videos to YouTube and
+    TikTok. This policy explains what account data we access through those
+    platforms' publishing APIs, and how we handle it.
+  </p>
+
+  <h2>What we connect to</h2>
+  <p>
+    30SecondSpark uses the TikTok Content Posting API and the YouTube Data
+    API to publish videos to the channel's own TikTok (<code>@30secondsspark</code>)
+    and YouTube (<code>@30secondsspark</code>) accounts. We do not operate on
+    behalf of any other account or user.
+  </p>
+
+  <h2>What data we access</h2>
+  <p>Through TikTok's OAuth, we request:</p>
+  <ul>
+    <li><code>user.info.basic</code> — basic public profile info (display name, avatar, open ID) of the connected account, used only to confirm we're publishing to the correct account.</li>
+    <li><code>video.upload</code> / <code>video.publish</code> — permission to upload and publish video files to the connected account.</li>
+  </ul>
+  <p>Through Google/YouTube OAuth, we request equivalent upload-only permission for the channel's own YouTube account, to publish videos and set their title, description and category.</p>
+  <p>
+    We do not request or access TikTok/YouTube direct messages, followers,
+    analytics beyond what the publishing APIs return, or any data belonging
+    to other accounts.
+  </p>
+
+  <h2>How we use it</h2>
+  <p>
+    Access tokens are used solely to upload and publish the channel's own
+    videos. We do not use this access to read, modify or delete any other
+    content on the connected accounts, and we do not use it for anything
+    beyond publishing.
+  </p>
+
+  <h2>Storage and sharing</h2>
+  <ul>
+    <li>OAuth tokens are stored locally on the machine that runs the publishing software and are never transmitted to any third party.</li>
+    <li>We do not sell, rent or share account data with advertisers, data brokers, or any other third party.</li>
+    <li>We do not use this data for advertising or profiling.</li>
+  </ul>
+
+  <h2>Retention and revocation</h2>
+  <p>
+    Tokens are kept only as long as needed to continue publishing. You (the
+    account owner) can revoke access at any time from TikTok's
+    <a href="https://www.tiktok.com/setting/manage-account">Manage Account</a>
+    &rarr; "Authorized apps" settings, or from
+    <a href="https://myaccount.google.com/permissions">Google Account &rarr; Security &rarr; Third-party access</a>
+    for YouTube. Revoking access immediately stops any further publishing.
+  </p>
+
+  <h2>Children's privacy</h2>
+  <p>
+    30SecondSpark's publishing tooling is operated by its author and is not
+    directed at children, and does not knowingly collect data from children.
+  </p>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    If this policy changes, the update will be posted on this page with a
+    revised "Last updated" date.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy: <a href="mailto:emailforshahbaz@gmail.com">emailforshahbaz@gmail.com</a>
+  </p>
+
+  <footer>
+    <a href="index.html">30SecondSpark</a> &middot; <a href="terms-of-service.html">Terms of Service</a>
+  </footer>
+</div>
+</body>
+</html>
